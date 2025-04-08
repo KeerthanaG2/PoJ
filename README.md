@@ -1,71 +1,91 @@
-# Getting Started with Create React App
+⚖️ Proof of Justice (PoJ): The Future of Legal Transparency via NFTs 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ NFT-Based Decentralized Legal Record System 
 
-## Available Scripts
+PoJ is a decentralized application (dApp) built on the Ethereum blockchain to bring transparency and traceability to legal case judgements using NFTs. It aims to provide an immutable, tamper-proof system where judgements are tokenized as NFTs and stored on-chain. 
 
-In the project directory, you can run:
+🛠 Tech Stack 
 
-### `npm start`
+Frontend: HTML, CSS, JavaScript 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Smart Contracts: Solidity (ERC-721 Standard) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Blockchain: Ethereum (Sepolia Testnet) 
 
-### `npm test`
+Wallet: MetaMask 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+IDE: Visual Studio Code 
 
-### `npm run build`
+Smart Contract Testing & Deployment: Remix IDE 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Decentralized Storage: IPFS (via Pinata) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Blockchain Interaction: Web3.js 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ 
 
-### `npm run eject`
+⚙️ Tools & Dependencies 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Solidity: Language used to write smart contracts 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Remix IDE: For developing, compiling, and deploying contracts 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MetaMask: Wallet integration for user authentication and transactions 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Web3.js: Communicating frontend with blockchain 
 
-## Learn More
+IPFS via Pinata: Storing metadata and legal judgement files in a decentralized manner 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pinata SDK: For uploading files and JSON metadata to IPFS 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Visual Studio Code: Frontend development 
 
-### Code Splitting
+OpenZeppelin: ERC-721 standards and access control modules 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ 
 
-### Analyzing the Bundle Size
+Features & Functionalities 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+✅ Tokenize legal judgements as NFTs 
 
-### Making a Progressive Web App
+✅ Upload and pin judgement documents to IPFS 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+✅ Mint NFTs to designated legal authorities or parties 
 
-### Advanced Configuration
+✅ Verify authenticity and ownership of a judgement on-chain 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+✅ View case metadata and IPFS-stored documents directly on frontend 
 
-### Deployment
+✅ Secure, transparent, and tamper-proof recordkeeping 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+✅ Only admin/authorized entity can mint or update judgement NFTs 
 
-### `npm run build` fails to minify
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Poj1" 
+🔁 Workflow 
+
+User Uploads Case Details → 
+ A PDF judgment is uploaded to Pinata, which pins the file to IPFS and returns a hash (CID). 
+
+Admin Mints NFT → 
+ Admin mints NFT to a party's address, linking the judgement metadata to the Pinata IPFS hash. 
+
+Verification → 
+ Any user can verify authenticity by viewing metadata on-chain and opening the file via the IPFS gateway URL from Pinata. 
+
+ 
+
+🧪 Testing & Deployment 
+
+Smart contracts were written and deployed using Remix IDE. 
+
+MetaMask was used to connect to Sepolia Testnet for all blockchain transactions. 
+
+All IPFS file uploads were done using Pinata and verified via returned CID links. 
+
+ [Virtual Variety Game Fun Presentation in Black Blue Orange Brutalist Cyberpunk Style.pdf](https://github.com/user-attachments/files/19650784/Virtual.Variety.Game.Fun.Presentation.in.Black.Blue.Orange.Brutalist.Cyberpunk.Style.pdf)
+
+
+ 
+
+ 
